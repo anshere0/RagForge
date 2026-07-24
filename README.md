@@ -86,8 +86,8 @@ RAG AI:          "The BTech fee is ₹1,80,000 per year" (directly from your doc
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ragforge.git
-cd ragforge
+git clone https://github.com/anshere0/RagForge.git
+cd RagForge
 npm install
 ```
 
@@ -233,21 +233,6 @@ src/
 - **Route protection** via middleware (redirects unauthenticated users)
 - **Client data isolation** — `client_id` derived from session cookie, never from request body
 - **Supabase service key** used only server-side (never exposed to browser)
-
----
-
-## 📚 Documentation
-
-Detailed documentation is available in the [`docs/`](docs/) folder:
-
-| Document | Description |
-|---|---|
-| [00_PROJECT_DOCUMENTATION.md](docs/00_PROJECT_DOCUMENTATION.md) | Complete project guide with setup, architecture, APIs, and flows |
-| [01_RAG_ENGINE_EXPLAINED.md](docs/01_RAG_ENGINE_EXPLAINED.md) | Deep dive into the 8-file RAG engine |
-| [02_AUTH_AND_SECURITY.md](docs/02_AUTH_AND_SECURITY.md) | Authentication, middleware, and data isolation |
-| [03_INTERVIEW_PREP.md](docs/03_INTERVIEW_PREP.md) | 20 interview Q&As covering RAG theory and implementation |
-| [04_ISSUES_AND_FIXES.md](docs/04_ISSUES_AND_FIXES.md) | Bugs encountered and how they were solved |
-| [05_BUILD_YOUR_OWN_RAG.md](docs/05_BUILD_YOUR_OWN_RAG.md) | Minimal step-by-step guide to build a RAG chatbot from scratch |
 
 ---
 

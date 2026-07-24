@@ -42,6 +42,9 @@ next-env.d.ts
 
 # ===== RAGForge Project Specific =====
 
+# Internal docs folder
+docs/
+
 # Sample documents used during development/testing
 sample_faq.txt
 university_faq.txt
