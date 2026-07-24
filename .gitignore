@@ -30,7 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (contain secrets - NEVER commit)
 .env*
 
 # vercel
@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ===== RAGForge Project Specific =====
+
+# Sample documents used during development/testing
+sample_faq.txt
+university_faq.txt
+
+# AI agent planning & memory files (not needed in production)
+01_PRD.md
+02_ARCHITECTURE.md
+03_RULES.md
+04_MEMORY.md
+05_PHASES.md
+06_MCP_SETUP.md
+AGENTS.md
+CLAUDE.md
